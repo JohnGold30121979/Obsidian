@@ -22,22 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "71ba1bdbfbc0f722",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f9ffd98b2921cb5b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -196,12 +180,12 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "f9ffd98b2921cb5b",
+  "active": "8c3d28e4bb545afe",
   "lastOpenFiles": [
-    "Obsidian",
-    "BIS ERP/Контрольный отчет по соответствию бизнес-логики Fox и BIS ERP.md",
     "BIS ERP/BIS ERP - актуальная схема проекта.md",
+    "BIS ERP/Контрольный отчет по соответствию бизнес-логики Fox и BIS ERP.md",
     "Добро пожаловать.md",
+    "Obsidian",
     "BIS ERP"
   ]
 }
