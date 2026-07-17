@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Добро пожаловать.md",
+                "file": "BIS ERP/Аудит требований бухгалтерских модулей.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Добро пожаловать"
+              "title": "Аудит требований бухгалтерских модулей"
             }
           }
         ]
@@ -183,19 +183,19 @@
   },
   "active": "105dfd6ef0051b8b",
   "lastOpenFiles": [
+    "Финансовый учет.md",
+    "BIS ERP/Аудит требований бухгалтерских модулей.md",
+    "создайте ссылку.md",
+    "Добро пожаловать.md",
+    "BIS ERP/BIS Patch.md",
+    "BIS ERP/Контрольный отчет по соответствию бизнес-логики Fox и BIS ERP.md",
+    "BIS ERP/Холст - Канва.canvas",
     "GetNextDocumentNumberAsync.md",
     "MetadataService.cs.md",
     "BIS ERP/BIS ERP - инструкция по патчам инфобаз.md",
     "BIS ERP/BIS ERP - актуальная схема проекта.md",
-    "BIS ERP/Контрольный отчет по соответствию бизнес-логики Fox и BIS ERP.md",
     "BIS ERP/Бизнес план бис.md",
-    "BIS ERP/Холст - Канва.canvas",
     "финансы.md",
-    "BIS ERP/Аудит требований бухгалтерских модулей.md",
-    "Финансовый учет.md",
-    "Добро пожаловать.md",
-    "создайте ссылку.md",
-    "BIS ERP/BIS Patch.md",
     "Obsidian",
     "BIS ERP"
   ]
