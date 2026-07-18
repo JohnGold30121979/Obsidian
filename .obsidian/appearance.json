@@ -1,6 +1,3 @@
 {
-  "cssTheme": "Dracula for Obsidian",
-  "enabledCssSnippets": [
-    "dashboard"
-  ]
+  "cssTheme": "Dracula for Obsidian"
 }
