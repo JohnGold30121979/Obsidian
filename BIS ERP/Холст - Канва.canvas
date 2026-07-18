@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"c543dd1331b27d97","type":"text","text":"схема проекта","x":-2320,"y":-1540,"width":280,"height":60},
+		{"id":"4c2131d96ee33919","x":-2340,"y":-1400,"width":400,"height":400,"type":"file","file":"BIS ERP/BIS ERP - актуальная схема проекта.md"}
+	],
+	"edges":[
+		{"id":"26c83e73548dbc56","fromNode":"c543dd1331b27d97","fromSide":"bottom","toNode":"4c2131d96ee33919","toSide":"top"}
+	]
+}

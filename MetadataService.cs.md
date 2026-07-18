@@ -1,0 +1,1 @@
+[[GetNextDocumentNumberAsync]]  - Увеличение счетчика номера документа
