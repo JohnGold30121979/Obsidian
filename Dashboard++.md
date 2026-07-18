@@ -3,7 +3,7 @@ cssclasses:
   - dashboard
 banner: "![[home.jpg]]"
 banner_x: 0.5
-banner_y: 0
+banner_y: 0.664
 ---
 <div class="title" style="color:white">HOME</div>
 
