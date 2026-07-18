@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "cadd89372c14ef65",
+    "id": "d26005cdabbb3ffc",
     "type": "split",
     "children": [
       {
-        "id": "321b8d2cdfd46b7f",
+        "id": "516f59f52c6b2fa2",
         "type": "tabs",
         "children": [
           {
-            "id": "105dfd6ef0051b8b",
+            "id": "2785ec504f38c863",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BIS ERP/Аудит требований бухгалтерских модулей.md",
+                "file": "Добро пожаловать.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Аудит требований бухгалтерских модулей"
+              "title": "Добро пожаловать"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e54085c349ec1420",
+    "id": "26bde01d89d47540",
     "type": "split",
     "children": [
       {
-        "id": "8493fd4ff877f971",
+        "id": "6d26cae69e80e5ea",
         "type": "tabs",
         "children": [
           {
-            "id": "837ec7eb9143e789",
+            "id": "6cebc4a3e7f035a9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "dbc7569ab299891f",
+            "id": "5865beebfee39933",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "9f56e4498a0372df",
+            "id": "21ec59576626da29",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,18 +78,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 454.5
+    "width": 300
   },
   "right": {
-    "id": "f306963487fb66f5",
+    "id": "6d98a25ce86f6c12",
     "type": "split",
     "children": [
       {
-        "id": "66cb56d2928b99ca",
+        "id": "e19c325ac4dbc684",
         "type": "tabs",
         "children": [
           {
-            "id": "3a34a698f3f8f97c",
+            "id": "649f8af610c41431",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -107,7 +107,7 @@
             }
           },
           {
-            "id": "c752ca3e5622b0e2",
+            "id": "26231555a695335b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -120,7 +120,7 @@
             }
           },
           {
-            "id": "ad1731e243ab13d3",
+            "id": "a6c8f7d861ab3f01",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +135,7 @@
             }
           },
           {
-            "id": "4bcb6532b05a7c60",
+            "id": "0bd0256802611481",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -149,7 +149,7 @@
             }
           },
           {
-            "id": "afecf8b12fd5cc1f",
+            "id": "2dfc00a8775a7aa0",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -181,22 +181,8 @@
       "direct-git-sync:Sync with GitHub": false
     }
   },
-  "active": "105dfd6ef0051b8b",
+  "active": "6cebc4a3e7f035a9",
   "lastOpenFiles": [
-    "Финансовый учет.md",
-    "BIS ERP/Аудит требований бухгалтерских модулей.md",
-    "создайте ссылку.md",
-    "Добро пожаловать.md",
-    "BIS ERP/BIS Patch.md",
-    "BIS ERP/Контрольный отчет по соответствию бизнес-логики Fox и BIS ERP.md",
-    "BIS ERP/Холст - Канва.canvas",
-    "GetNextDocumentNumberAsync.md",
-    "MetadataService.cs.md",
-    "BIS ERP/BIS ERP - инструкция по патчам инфобаз.md",
-    "BIS ERP/BIS ERP - актуальная схема проекта.md",
-    "BIS ERP/Бизнес план бис.md",
-    "финансы.md",
-    "Obsidian",
-    "BIS ERP"
+    "Добро пожаловать.md"
   ]
 }
