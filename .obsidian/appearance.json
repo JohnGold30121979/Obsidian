@@ -1,3 +1,6 @@
 {
-  "cssTheme": "Sodalite"
+  "cssTheme": "Sodalite",
+  "enabledCssSnippets": [
+    "dashboard"
+  ]
 }
