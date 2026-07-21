@@ -11,7 +11,7 @@
 		{"id":"mw_content","type":"text","text":"🖥️ ContentArea\nContentControl\n(правая панель)\n\nСюда загружаются\nUserControl-ы","x":-460,"y":-2020,"width":240,"height":140},
 		{"id":"v_payment","type":"text","text":"PaymentOrderWorkView\n(Платежные поручения)","x":-600,"y":-1410,"width":200,"height":60},
 		{"id":"v_invoice","type":"text","text":"InvoiceWorkView\n(Счет-фактуры)","x":-380,"y":-1410,"width":200,"height":60},
-		{"id":"v_accounting","type":"text","text":"AccountingReportsView\n(Бух. отчёты)","x":-600,"y":-1300,"width":200,"height":60},
+		{"id":"v_accounting","type":"text","text":"[[AccountingReportsView]]","x":-600,"y":-1300,"width":200,"height":60},
 		{"id":"v_accounting_setup","type":"text","text":"AccountingSetupView\n(Настройка учёта)","x":-380,"y":-1300,"width":200,"height":60},
 		{"id":"v_users","type":"text","text":"UserAccessManagementView\n(Пользователи/права)","x":-600,"y":-1190,"width":200,"height":60},
 		{"id":"dialogs_group","type":"text","text":"🗂️ Диалоги окон","x":0,"y":-1860,"width":220,"height":60},
