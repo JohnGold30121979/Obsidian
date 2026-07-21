@@ -13,7 +13,7 @@ banner_y: 1
 	- [[BIS ERP - инструкция по патчам инфобаз]]
 	- [[BIS Patch]]
 
-##  BIS ERP
+##  ⚙️  BIS ERP
 ```dataview
 LIST
 FROM "BIS ERP"
