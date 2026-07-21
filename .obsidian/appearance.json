@@ -3,7 +3,8 @@
   "enabledCssSnippets": [
     "dashboard-dataview",
     "dashboard",
-    "hide-properties"
+    "hide-properties",
+    "canvas-embed"
   ],
   "theme": "obsidian"
 }
