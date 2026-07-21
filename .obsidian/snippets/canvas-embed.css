@@ -1,6 +1,6 @@
 .markdown-preview-view .internal-embed.canvas-embed {
-    max-height: 100px !important;
-    height: 100px !important;
-    margin-bottom: 50px !important; /* добавляем отступ снизу */
-    display: block !important;      /* гарантируем блочное отображение */
+    max-height: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    display: block;
 }
