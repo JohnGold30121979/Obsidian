@@ -70,14 +70,10 @@
 /* Каждая колонка (элемент списка) */
 .dashboard-dataview div > ul > li,
 .dashboard-dataview div > ul.dataview.list-view-ul > li {
-    min-width: 180px;
-    width: 15%;
-    flex: 0 0 auto;
-    list-style: none;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding-right: 10px;
+    overflow-x: auto;          /* появится горизонтальная прокрутка при необходимости */
+    overflow-y: hidden;        /* скрываем вертикальный скролл */
+    text-overflow: clip;       /* не обрезаем текст */
 }
 
 /* Для вложенных списков внутри колонок — сохраняем обычный вид */
@@ -103,4 +99,10 @@
 .hide-properties .metadata-container,
 .hide-properties .metadata-properties {
     display: none !important;
+}
+
+.dashboard-dataview h1,
+.dashboard-dataview h2,
+.dashboard-dataview h3 {
+    padding-left: 5px !important; /* или 0, если хотите без отступа */
 }
