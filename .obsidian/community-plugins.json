@@ -2,5 +2,6 @@
   "direct-git-sync",
   "homepage",
   "obsidian-banners",
-  "dataview"
+  "dataview",
+  "better-embedded-canvas"
 ]

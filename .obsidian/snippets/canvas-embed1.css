@@ -1,0 +1,4 @@
+.canvas-embed {
+    max-height: 100px !important; /* Ограничьте максимальную высоту */
+    max-width: 100% !important;   /* Ширина по ширине родительского блока */
+}

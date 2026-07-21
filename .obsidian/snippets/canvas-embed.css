@@ -1,0 +1,5 @@
+/* Ограничивает высоту всех встроенных холстов */
+.markdown-preview-view .internal-embed.canvas-embed {
+    max-height: 100px !important;
+    height: 100px !important;
+}
