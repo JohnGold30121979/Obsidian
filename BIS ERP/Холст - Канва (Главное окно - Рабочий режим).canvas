@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"mw_header","type":"text","text":"🔷 Header (Шапка)\n• SystemLogoImage / SystemIconText\n• SystemNameText\n• ThemeToggleButton 🌙\n• InfoBaseLogoImage / InfoBaseIconText\n• CurrentInfoBaseText","x":-1380,"y":-2160,"width":260,"height":180},
-		{"id":"mw_main","type":"text","text":"🏠 MainWorkWindow\nРабочий режим","x":-960,"y":-1860,"width":240,"height":80},
+		{"id":"mw_main","type":"text","text":"🏠 MainWorkWindow\nРабочий режим[[Форма рабочего окна]]","x":-960,"y":-1860,"width":240,"height":80},
 		{"id":"mw_splitter","type":"text","text":"GridSplitter\n5px","x":-1380,"y":-1840,"width":260,"height":60},
 		{"id":"mw_nav","type":"text","text":"📂 NavigationTree\n(левая панель ~300px)\n\nМодули:\n• Финансы\n• ОС\n• Материалы\n• Зарплата\n• Сбыт\n• Сырьё\n• Себестоимость","x":-1400,"y":-1630,"width":260,"height":220},
 		{"id":"v_catalog","type":"text","text":"CatalogDataView\n(Справочники)","x":-820,"y":-1520,"width":200,"height":60},
