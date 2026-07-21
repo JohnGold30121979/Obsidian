@@ -2,8 +2,8 @@
   "cssTheme": "Wasp",
   "enabledCssSnippets": [
     "dashboard-dataview",
-    "hide-properties",
-    "dashboard"
+    "dashboard",
+    "hide-properties"
   ],
   "theme": "obsidian"
 }
