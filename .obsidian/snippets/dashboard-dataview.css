@@ -1,34 +1,34 @@
 /*
    Dashboard + Dataview — гибкие колонки для списков
-   Версия: 1.2 (исправлено позиционирование заголовка)
+   Версия: 1.4 (исправлено обрезание, улучшены отступы)
 */
 
-/* Основной контейнер — теперь класс совпадает с вашим cssclasses */
+/* Основной контейнер — класс совпадает с вашим cssclasses */
 .dashboard-dataview {
     font-family: inherit;
-    padding-left: 25px !important;
+    padding-left: 15px !important;   /* уменьшили отступ слева, чтобы сдвинуть контент левее */
     padding-right: 25px !important;
     padding-top: 20px !important;
-    position: relative; /* чтобы абсолютное позиционирование работало внутри */
+    position: relative;
 }
 
 .dashboard-dataview .markdown-preview-section {
     max-width: 100%;
 }
 
-/* Заголовок поверх баннера — центрирован и поднят над картинкой */
+/* Заголовок поверх баннера */
 .dashboard-dataview .markdown-preview-section .title {
     position: absolute;
-    top: 20px;              /* расстояние от верха контейнера */
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 10;            /* выше баннера */
+    z-index: 10;
     font-size: 26pt !important;
     font-weight: bolder;
     letter-spacing: 8px;
-    color: white;           /* можно задать здесь вместо inline-стиля */
-    text-shadow: 0 0 20px rgba(0,0,0,0.8), 0 0 10px rgba(0,0,0,0.5); /* тень для читаемости */
-    pointer-events: none;   /* чтобы текст не мешал кликам по баннеру */
+    color: white;
+    text-shadow: 0 0 20px rgba(0,0,0,0.8), 0 0 10px rgba(0,0,0,0.5);
+    pointer-events: none;
 }
 
 .dashboard-dataview h1 {
@@ -61,32 +61,30 @@
     list-style: none;
     display: flex;
     flex-flow: row wrap;
-    column-gap: 50px;
+    column-gap: 40px;        /* увеличили расстояние между колонками */
     row-gap: 10px;
     padding-left: 0;
     margin-top: 5px;
 }
 
-/* Каждая колонка (элемент списка) */
+/* Каждая колонка (элемент списка) — теперь без ограничения максимальной ширины */
 .dashboard-dataview div > ul > li,
 .dashboard-dataview div > ul.dataview.list-view-ul > li {
-    white-space: nowrap;
-    overflow-x: auto;          /* появится горизонтальная прокрутка при необходимости */
-    overflow-y: hidden;        /* скрываем вертикальный скролл */
-    text-overflow: clip;       /* не обрезаем текст */
+    white-space: nowrap;      /* текст в одну строку, без переносов */
+    overflow: visible;        /* убираем обрезание — текст будет выходить за пределы, если не влезает */
+    flex: 0 0 auto;           /* ширина определяется содержимым */
+    min-width: 180px;         /* минимальная ширина, чтобы колонки были не слишком узкие */
+    padding-right: 10px;
+    margin-bottom: 4px;       /* небольшой отступ между строками внутри колонки */
 }
 
-/* Для вложенных списков внутри колонок — сохраняем обычный вид */
+/* Для вложенных списков (подпункты) — они должны быть в столбик, с переносами */
 .dashboard-dataview div > ul > li > ul,
 .dashboard-dataview div > ul.dataview.list-view-ul > li > ul {
     display: block;
-    white-space: normal;
+    white-space: normal;      /* разрешаем перенос текста в подпунктах */
     padding-left: 20px;
-}
-
-.dashboard-dataview div > ul > li {
-    min-width: 200px;
-    flex: 1 1 auto; /* или 0 0 20% */
+    margin-top: 2px;
 }
 
 /* Для Dataview списков — убираем лишние отступы */
@@ -94,15 +92,9 @@
     padding-left: 0 !important;
 }
 
-/* Если хотите, чтобы колонки не переносились на следующую строку (были в один ряд) — 
-   замените flex-flow: row wrap; на flex-flow: row nowrap; 
-   и добавьте overflow-x: auto; для горизонтальной прокрутки.
-*/
-
-/* Дополнительно: если вы используете класс hide-properties для скрытия блока свойств */
+/* Скрытие свойств через класс hide-properties */
 .hide-properties .frontmatter-container,
 .hide-properties .metadata-container,
 .hide-properties .metadata-properties {
     display: none !important;
 }
-
