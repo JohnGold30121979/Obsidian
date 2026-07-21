@@ -5,7 +5,7 @@ banner: "![[home.jpg]]"
 banner_x: 0.5
 banner_y: 0.664
 ---
-<div class="title" style="color:white">HOME</div>
+<div class="title" style="color:white">База знаний по программированию</div>
 
 # Family
 - 🏈 Sunday Game

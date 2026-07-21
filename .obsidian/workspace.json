@@ -11,14 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Dashboard++.md",
-                "mode": "preview",
-                "source": false
+                "file": "images/Home.jpg"
               },
-              "icon": "lucide-file",
-              "title": "Dashboard++"
+              "icon": "lucide-image",
+              "title": "Home"
             }
           }
         ]
@@ -184,6 +182,13 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "GetNextDocumentNumberAsync.md",
+    "MetadataService.cs.md",
+    "Spicy-Sweet Buffalo Popcorn.md",
+    "Dashboard++.md",
+    "финансы.md",
+    "images/Home.jpg",
+    "images/home1.jpg",
     "images/home.jpg",
     "images/images.jpg",
     "images/progr-360x360.jpg",
@@ -192,11 +197,6 @@
     "images/Spicy popcorn.jpeg",
     "images/Smores.jpeg",
     "images/Kitchen.jpeg",
-    "images/home (remote conflict - 2026-07-21).jpg",
-    "/images/progr-360x360.jpg",
-    "Dashboard++.md",
-    "images/dashboard-snapshot (remote conflict - 2026-07-21).png",
-    "финансы.md",
     "Домашняя страница.md",
     "Добро пожаловать (local backup - 2026-07-17).md",
     "/Добро пожаловать.md",
@@ -213,9 +213,6 @@
     "/BIS ERP",
     "создайте ссылку.md",
     "Финансовый учет.md",
-    "Spicy-Sweet Buffalo Popcorn.md",
-    "MetadataService.cs.md",
-    "GetNextDocumentNumberAsync.md",
     "/финансы.md",
     "/создайте ссылку.md",
     "/Финансовый учет.md",
