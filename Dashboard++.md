@@ -1,9 +1,8 @@
 ---
-cssclasses:
-  - dashboard-dataview
 banner: "![[home.jpg]]"
 banner_x: 0
 banner_y: 0.96
+cssclasses:
 ---
 <div class="title" style="color:white">База знаний по программированию</div>
 

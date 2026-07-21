@@ -5,9 +5,9 @@
 
 .dashboard {
     font-family: inherit;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
-    padding-top: 10px !important;  /* уменьшили отступ сверху, чтобы подтянуть список выше */
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-top: 5px !important;  /* уменьшили отступ сверху, чтобы подтянуть список выше */
 }
 
 .dashboard .markdown-preview-section {
@@ -16,7 +16,7 @@
 
 /* Заголовок в верхней части (если используете) */
 .dashboard .markdown-preview-section .title {
-    top: 60px;
+    top: 20px;
     position: absolute;
     font-size: 26pt !important;
     font-weight: bolder;
