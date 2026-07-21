@@ -84,6 +84,11 @@
     padding-left: 20px;
 }
 
+.dashboard-dataview div > ul > li {
+    min-width: 200px;
+    flex: 1 1 auto; /* или 0 0 20% */
+}
+
 /* Для Dataview списков — убираем лишние отступы */
 .dashboard-dataview .dataview.list-view-ul {
     padding-left: 0 !important;
