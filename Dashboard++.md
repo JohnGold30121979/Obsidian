@@ -7,7 +7,7 @@ banner_y: 0.664
 ---
 <div class="title" style="color:white">База знаний по программированию</div>
 
-# Family
+# C#
 - 🏈 Sunday Game
 	- [[Spicy-Sweet Buffalo Popcorn]]
 	- [[Guest list]]
