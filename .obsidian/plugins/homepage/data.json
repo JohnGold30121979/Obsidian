@@ -2,7 +2,7 @@
   "version": 4,
   "homepages": {
     "Main Homepage": {
-      "value": "Домашняя страница",
+      "value": "Dashboard++",
       "kind": "File",
       "openOnStartup": true,
       "openMode": "Replace all open notes",
@@ -12,12 +12,12 @@
       "openWhenEmpty": false,
       "refreshDataview": false,
       "autoCreate": false,
-      "autoScroll": true,
-      "pin": false,
+      "autoScroll": false,
+      "pin": true,
       "commands": [],
-      "alwaysApply": true,
+      "alwaysApply": false,
       "hideReleaseNotes": false
     }
   },
-  "separateMobile": true
+  "separateMobile": false
 }
