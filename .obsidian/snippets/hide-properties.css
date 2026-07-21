@@ -1,3 +1,5 @@
-.hide-properties .metadata-container {
+.hide-properties .frontmatter-container,
+.hide-properties .metadata-container,
+.hide-properties .metadata-properties {
     display: none !important;
 }
