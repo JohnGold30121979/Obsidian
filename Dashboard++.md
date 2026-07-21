@@ -1,6 +1,6 @@
 ---
 cssclasses:
-  - dashboard
+  - dashboard-dataview
 banner: "![[home.jpg]]"
 banner_x: 1
 banner_y: 1
