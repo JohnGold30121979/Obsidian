@@ -1,0 +1,93 @@
+/* 
+   Dashboard + Dataview — гибкие колонки для списков
+   Версия: 1.1
+*/
+
+.dashboard {
+    font-family: inherit;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 10px !important;  /* уменьшили отступ сверху, чтобы подтянуть список выше */
+}
+
+.dashboard .markdown-preview-section {
+    max-width: 100%;
+}
+
+/* Заголовок в верхней части (если используете) */
+.dashboard .markdown-preview-section .title {
+    top: 60px;
+    position: absolute;
+    font-size: 26pt !important;
+    font-weight: bolder;
+    letter-spacing: 8px;
+}
+
+.dashboard h1 {
+    border-bottom-style: dotted !important;
+    border-width: 1px !important;
+    padding-bottom: 3px !important;
+}
+
+/* Скрываем маркеры списков (точки) для родительского уровня */
+.dashboard div.markdown-preview-section > div > ul > li > .list-bullet {
+    display: none !important;
+}
+
+/* Убираем направляющие линии отступов */
+.dashboard.markdown-rendered.show-indentation-guide li > ul::before,
+.dashboard.markdown-rendered.show-indentation-guide li > ol::before {
+    display: none;
+}
+
+/* Убираем лишний отступ у элементов списка */
+.dashboard div.markdown-preview-section > div > ul.has-list-bullet > li {
+    padding-left: 0 !important;
+}
+
+/* 
+   Основные стили для списков — применяются и к обычным ul, и к спискам Dataview 
+   Селектор .dashboard div > ul охватывает оба случая, 
+   но для Dataview дополнительно указываем .dataview.list-view-ul
+*/
+.dashboard div > ul,
+.dashboard div > ul.dataview.list-view-ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;       /* колонки переносятся на новую строку, если не влезают */
+    column-gap: 50px;
+    row-gap: 10px;             /* небольшой отступ между строками колонок */
+    padding-left: 0;
+    margin-top: 5px;           /* уменьшаем отступ сверху, чтобы подтянуть список к заголовку */
+}
+
+/* Каждая колонка (элемент списка) */
+.dashboard div > ul > li,
+.dashboard div > ul.dataview.list-view-ul > li {
+    min-width: 180px;          /* минимальная ширина колонки */
+    width: 15%;                /* относительная ширина */
+    flex: 0 0 auto;            /* не растягивается и не сжимается */
+    list-style: none;
+    white-space: nowrap;       /* текст внутри колонки в одну строку */
+    overflow: hidden;
+    text-overflow: ellipsis;   /* если текст слишком длинный — обрезаем с многоточием */
+    padding-right: 10px;       /* небольшой отступ справа, чтобы не слипалось */
+}
+
+/* Для вложенных списков внутри колонок (если есть подпункты) — сохраняем обычный вид */
+.dashboard div > ul > li > ul,
+.dashboard div > ul.dataview.list-view-ul > li > ul {
+    display: block;
+    white-space: normal;       /* подпункты могут переноситься */
+    padding-left: 20px;
+}
+
+/* Для Dataview списков, которые выводят ссылки на заметки — убираем лишние отступы */
+.dashboard .dataview.list-view-ul {
+    padding-left: 0 !important;
+}
+
+/* Если хотите, чтобы колонки не переносились на следующую строку (были в один ряд) — 
+   замените flex-flow: row wrap; на flex-flow: row nowrap; 
+   и добавьте overflow-x: auto; для горизонтальной прокрутки.
+*/
