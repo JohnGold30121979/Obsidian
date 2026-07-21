@@ -101,25 +101,3 @@
     display: none !important;
 }
 
-/* Выравнивание заголовков по левому краю с одинаковым отступом */
-.dashboard-dataview h2,
-.dashboard-dataview h3,
-.dashboard-dataview h4,
-.dashboard-dataview h5,
-.dashboard-dataview h6 {
-    margin-left: 5 !important;   /* убираем отступ слева */
-    padding-left: 0 !important;  /* убираем внутренний отступ слева */
-    text-align: left;            /* явно выравниваем по левому краю */
-}
-
-/* Если заголовки всё ещё смещены из-за обёртки, можно добавить для родителя */
-.dashboard-dataview .markdown-preview-section {
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-}
-
-/* Если вы хотите, чтобы все заголовки были на одном уровне с текстом списков, 
-   можно также задать отступ для всего содержимого */
-.dashboard-dataview .markdown-preview-section > div {
-    padding-left: 0 !important;
-}
