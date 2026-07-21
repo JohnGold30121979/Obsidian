@@ -1,98 +1,95 @@
-/* 
+/*
    Dashboard + Dataview — гибкие колонки для списков
-   Версия: 1.1
+   Версия: 1.2 (исправлено позиционирование заголовка)
 */
 
-.dashboard {
+/* Основной контейнер — теперь класс совпадает с вашим cssclasses */
+.dashboard-dataview {
     font-family: inherit;
     padding-left: 25px !important;
     padding-right: 25px !important;
     padding-top: 20px !important;
+    position: relative; /* чтобы абсолютное позиционирование работало внутри */
 }
 
-.dashboard .markdown-preview-section {
+.dashboard-dataview .markdown-preview-section {
     max-width: 100%;
 }
 
-/* Title at top of the document */
-.dashboard .markdown-preview-section .title {
-    top: 60px;
+/* Заголовок поверх баннера — центрирован и поднят над картинкой */
+.dashboard-dataview .markdown-preview-section .title {
     position: absolute;
+    top: 20px;              /* расстояние от верха контейнера */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;            /* выше баннера */
     font-size: 26pt !important;
     font-weight: bolder;
     letter-spacing: 8px;
+    color: white;           /* можно задать здесь вместо inline-стиля */
+    text-shadow: 0 0 20px rgba(0,0,0,0.8), 0 0 10px rgba(0,0,0,0.5); /* тень для читаемости */
+    pointer-events: none;   /* чтобы текст не мешал кликам по баннеру */
 }
 
-/* Заголовок в верхней части (если используете) */
-.dashboard .markdown-preview-section .title {
-    top: 20px;
-    position: absolute;
-    font-size: 26pt !important;
-    font-weight: bolder;
-    letter-spacing: 8px;
-}
-
-.dashboard h1 {
+.dashboard-dataview h1 {
     border-bottom-style: dotted !important;
     border-width: 1px !important;
     padding-bottom: 3px !important;
 }
 
 /* Скрываем маркеры списков (точки) для родительского уровня */
-.dashboard div.markdown-preview-section > div > ul > li > .list-bullet {
+.dashboard-dataview div.markdown-preview-section > div > ul > li > .list-bullet {
     display: none !important;
 }
 
 /* Убираем направляющие линии отступов */
-.dashboard.markdown-rendered.show-indentation-guide li > ul::before,
-.dashboard.markdown-rendered.show-indentation-guide li > ol::before {
+.dashboard-dataview.markdown-rendered.show-indentation-guide li > ul::before,
+.dashboard-dataview.markdown-rendered.show-indentation-guide li > ol::before {
     display: none;
 }
 
 /* Убираем лишний отступ у элементов списка */
-.dashboard div.markdown-preview-section > div > ul.has-list-bullet > li {
+.dashboard-dataview div.markdown-preview-section > div > ul.has-list-bullet > li {
     padding-left: 0 !important;
 }
 
 /* 
    Основные стили для списков — применяются и к обычным ul, и к спискам Dataview 
-   Селектор .dashboard div > ul охватывает оба случая, 
-   но для Dataview дополнительно указываем .dataview.list-view-ul
 */
-.dashboard div > ul,
-.dashboard div > ul.dataview.list-view-ul {
+.dashboard-dataview div > ul,
+.dashboard-dataview div > ul.dataview.list-view-ul {
     list-style: none;
     display: flex;
-    flex-flow: row wrap;       /* колонки переносятся на новую строку, если не влезают */
+    flex-flow: row wrap;
     column-gap: 50px;
-    row-gap: 10px;             /* небольшой отступ между строками колонок */
+    row-gap: 10px;
     padding-left: 0;
-    margin-top: 5px;           /* уменьшаем отступ сверху, чтобы подтянуть список к заголовку */
+    margin-top: 5px;
 }
 
 /* Каждая колонка (элемент списка) */
-.dashboard div > ul > li,
-.dashboard div > ul.dataview.list-view-ul > li {
-    min-width: 180px;          /* минимальная ширина колонки */
-    width: 15%;                /* относительная ширина */
-    flex: 0 0 auto;            /* не растягивается и не сжимается */
+.dashboard-dataview div > ul > li,
+.dashboard-dataview div > ul.dataview.list-view-ul > li {
+    min-width: 180px;
+    width: 15%;
+    flex: 0 0 auto;
     list-style: none;
-    white-space: nowrap;       /* текст внутри колонки в одну строку */
+    white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;   /* если текст слишком длинный — обрезаем с многоточием */
-    padding-right: 10px;       /* небольшой отступ справа, чтобы не слипалось */
+    text-overflow: ellipsis;
+    padding-right: 10px;
 }
 
-/* Для вложенных списков внутри колонок (если есть подпункты) — сохраняем обычный вид */
-.dashboard div > ul > li > ul,
-.dashboard div > ul.dataview.list-view-ul > li > ul {
+/* Для вложенных списков внутри колонок — сохраняем обычный вид */
+.dashboard-dataview div > ul > li > ul,
+.dashboard-dataview div > ul.dataview.list-view-ul > li > ul {
     display: block;
-    white-space: normal;       /* подпункты могут переноситься */
+    white-space: normal;
     padding-left: 20px;
 }
 
-/* Для Dataview списков, которые выводят ссылки на заметки — убираем лишние отступы */
-.dashboard .dataview.list-view-ul {
+/* Для Dataview списков — убираем лишние отступы */
+.dashboard-dataview .dataview.list-view-ul {
     padding-left: 0 !important;
 }
 
@@ -100,3 +97,10 @@
    замените flex-flow: row wrap; на flex-flow: row nowrap; 
    и добавьте overflow-x: auto; для горизонтальной прокрутки.
 */
+
+/* Дополнительно: если вы используете класс hide-properties для скрытия блока свойств */
+.hide-properties .frontmatter-container,
+.hide-properties .metadata-container,
+.hide-properties .metadata-properties {
+    display: none !important;
+}
