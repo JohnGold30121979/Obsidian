@@ -1,3 +1,4 @@
+<<<<<<< main
 {
   "version": 4,
   "homepages": {
@@ -20,4 +21,27 @@
     }
   },
   "separateMobile": false
-}
+}=======
+{
+  "version": 4,
+  "homepages": {
+    "Main Homepage": {
+      "value": "Домашняя страница",
+      "kind": "File",
+      "openOnStartup": true,
+      "openMode": "Replace all open notes",
+      "manualOpenMode": "Keep open notes",
+      "view": "Reading view",
+      "revertView": true,
+      "openWhenEmpty": false,
+      "refreshDataview": false,
+      "autoCreate": false,
+      "autoScroll": true,
+      "pin": false,
+      "commands": [],
+      "alwaysApply": true,
+      "hideReleaseNotes": false
+    }
+  },
+  "separateMobile": true
+}>>>>>>> 4af742b6a071baa445c1f3630fe91d659c0e7b7d

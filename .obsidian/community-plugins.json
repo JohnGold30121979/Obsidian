@@ -1,5 +1,11 @@
 [
   "direct-git-sync",
+<<<<<<< main
   "homepage",
   "obsidian-banners"
+=======
+  "obsidian-banners",
+  "homepage",
+  "obsidian-git"
+>>>>>>> 4af742b6a071baa445c1f3630fe91d659c0e7b7d
 ]
