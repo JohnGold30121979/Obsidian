@@ -88,9 +88,194 @@
               "icon": "lucide-layout-dashboard",
               "title": "Холст - Канва (Главное окно - Рабочий режим)"
             }
+          },
+          {
+            "id": "69fa4909c0de5fce",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "BIS ERP/Холст - Канва (Конфигуратор).canvas",
+                "viewState": {
+                  "x": -711.307091417846,
+                  "y": -292.0686009373281,
+                  "zoom": -0.28514453978263926
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Холст - Канва (Конфигуратор)"
+            }
+          },
+          {
+            "id": "20e22993e28bf773",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "BIS ERP/Холст - Канва (Конфигуратор).canvas",
+                "viewState": {
+                  "x": -583.900533763903,
+                  "y": -454.5288634377076,
+                  "zoom": -0.28514453978263926
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Холст - Канва (Конфигуратор)"
+            }
+          },
+          {
+            "id": "7e8b781c4aaee617",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Связи/журнал проводок..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "журнал проводок."
+            }
+          },
+          {
+            "id": "90c2d592d8eded8f",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "BIS ERP/Холст - Канва (Конфигуратор).canvas",
+                "viewState": {
+                  "x": -452.7748792270533,
+                  "y": -240.41339070048303,
+                  "zoom": 0.04818879355069405
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Холст - Канва (Конфигуратор)"
+            }
+          },
+          {
+            "id": "684806ecadfb9293",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Связи/Конструктор отчётов (визуальный построитель отчетов).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Конструктор отчётов (визуальный построитель отчетов)"
+            }
+          },
+          {
+            "id": "bade02b9078fa322",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          },
+          {
+            "id": "c567c129134d44dc",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "BIS ERP/Холст - Канва (Конфигуратор).canvas",
+                "viewState": {
+                  "x": -635.5218441234748,
+                  "y": -176.92930059489578,
+                  "zoom": -0.6184778731159726
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Холст - Канва (Конфигуратор)"
+            }
+          },
+          {
+            "id": "1e6c32b59a0ffebc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Связи/Конструктор отчётов (визуальный построитель отчетов).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Конструктор отчётов (визуальный построитель отчетов)"
+            }
+          },
+          {
+            "id": "4d3e12b2579b5d1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Связи/Конструктор отчётов (визуальный построитель отчетов).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Конструктор отчётов (визуальный построитель отчетов)"
+            }
+          },
+          {
+            "id": "3e7461473b400688",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "BIS ERP/Холст - Канва (Главное окно - Рабочий режим).canvas",
+                "viewState": {
+                  "x": -270.52829166158233,
+                  "y": -1560.9235839648543,
+                  "zoom": -0.21360807293068057
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Холст - Канва (Главное окно - Рабочий режим)"
+            }
+          },
+          {
+            "id": "28ab63a063d83aa2",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "BIS ERP/Холст - Канва (Главное окно - Рабочий режим).canvas",
+                "viewState": {
+                  "x": -570,
+                  "y": -1490,
+                  "zoom": -0.8802747395973471
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Холст - Канва (Главное окно - Рабочий режим)"
+            }
+          },
+          {
+            "id": "3d00172d5ab3e580",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "BIS ERP/Холст - Канва (Главное окно - Рабочий режим).canvas",
+                "viewState": {
+                  "x": -570,
+                  "y": -1661.1875,
+                  "zoom": -0.8802747395973471
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Холст - Канва (Главное окно - Рабочий режим)"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -163,16 +348,17 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BIS ERP/Холст - Канва (Главное окно - Рабочий режим).canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
+                "showSearch": true,
+                "searchQuery": "Правила распознавания FoxPro-полей",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки"
+              "title": "Обратные ссылки для Холст - Канва (Главное окно - Рабочий режим)"
             }
           },
           {
@@ -235,8 +421,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,32 +436,39 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "1861296066592a70",
+  "active": "3d00172d5ab3e580",
   "lastOpenFiles": [
     "Домашняя страница.md",
+    "Связи/Конструктор отчётов (визуальный построитель отчетов).md",
     "BIS ERP/Холст - Канва (Главное окно - Рабочий режим).canvas",
-    "Связи/AccountingReportsView.md",
-    "Связи/CashOrderDialog.md",
+    "Связи/Header (Шапка).md",
+    "Связи/Кассовые ордера.md",
     "BIS ERP/Холст - Канва (Конфигуратор).canvas",
-    "BIS ERP/BIS ERP - актуальная схема проекта.md",
+    "Связи/AccountingReportsView.md",
     "Связи/Форма рабочего окна.md",
-    "Связи/журнал проводок..md",
     "Связи/Финансовый учет.md",
     "Связи/финансы.md",
+    "Связи/Режим конфигуратора.md",
+    "Связи/Правила распознавания FoxPro-полей.md",
+    "Связи/FoxProReportKnowledgeBase.cs Правила распознавания FoxPro-полей.md",
+    "Связи/вкладку FRX поля.md",
+    "BIS ERP/Холст - Канва (Структура БД).canvas",
+    "Связи/FoxProReportKnowledgeBase.cs.md",
     "Связи/GetNextDocumentNumberAsync.md",
+    "Связи/PostingsJournalView.md",
+    "Связи/CashOrderDialog.md",
+    "Связи/FrxParser.ParseFrxFile.md",
+    "Связи/FRX.md",
+    "Связи/журнал проводок..md",
     "Связи/MetadataService.cs.md",
+    "Конфигуратор.md",
+    "Связи/Конфигуратор.md",
+    "Связи/JSON.md",
+    "BIS ERP/BIS ERP - актуальная схема проекта.md",
+    "BIS ERP/Текстовый документ.txt",
     "BIS ERP/BIS ERP - инструкция по патчам инфобаз.md",
-    "BIS ERP/BIS Patch.md",
-    "BIS ERP/Бизнес план бис.md",
-    "BIS ERP/Контрольный отчет по соответствию бизнес-логики Fox и BIS ERP.md",
     "Связи",
-    "BIS ERP/Аудит требований бухгалтерских модулей.md",
-    "Dashboard++.md",
-    "Добро пожаловать.md",
-    "Добро пожаловать (local backup - 2026-07-17).md",
-    "создайте ссылку.md",
     "images/Home.jpg",
-    "Spicy-Sweet Buffalo Popcorn.md",
     "images/home1.jpg",
     "images/home.jpg",
     "images/images.jpg",
@@ -286,14 +478,9 @@
     "images/Spicy popcorn.jpeg",
     "images/Smores.jpeg",
     "images/Kitchen.jpeg",
-    "/Добро пожаловать.md",
-    "/Добро пожаловать (local backup - 2026-07-17).md",
     "/images",
     "images",
     "/BIS ERP/Холст - Канва.canvas",
-    "/BIS ERP/Контрольный отчет по соответствию бизнес-логики Fox и BIS ERP.md",
-    "/BIS ERP/Бизнес план бис.md",
-    "/BIS ERP/Аудит требований бухгалтерских модулей.md",
     "/BIS ERP",
     "/ (local backup - 2026-07-17).gitignore",
     " (local backup - 2026-07-17).gitignore",
