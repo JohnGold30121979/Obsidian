@@ -13,7 +13,7 @@
 		{"id":"d_settings","type":"text","text":"SettingsWindow\n(Настройки системы)","x":-840,"y":-320,"width":220,"height":60},
 		{"id":"d_dbf","type":"text","text":"DbfImportWindow\n(Импорт DBF)","x":-600,"y":-320,"width":220,"height":60},
 		{"id":"d_frx","type":"text","text":"FrxImportWindow\n(Импорт FRX)","x":-1080,"y":-210,"width":220,"height":60},
-		{"id":"d_report_designer","type":"text","text":"ReportDesignerWindow\n(Конструктор отчётов)","x":-840,"y":-210,"width":220,"height":60},
+		{"id":"d_report_designer","type":"text","text":"ReportDesignerWindow\n([[Конструктор отчётов]])","x":-840,"y":-210,"width":220,"height":55},
 		{"id":"d_accounting_setup","type":"text","text":"AccountingSetupView\n(Настройка учёта)","x":-600,"y":-210,"width":220,"height":60},
 		{"id":"d_users","type":"text","text":"UserAccessManagementView\n(Пользователи и права)","x":-1080,"y":-100,"width":220,"height":60},
 		{"id":"d_foxpro","type":"text","text":"FoxProAnalysis\n(Анализ FoxPro)","x":-840,"y":-100,"width":220,"height":60},
