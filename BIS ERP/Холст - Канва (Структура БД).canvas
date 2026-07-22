@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"node_2","type":"text","text":"Organization (Организации)\n\nПоля:\n- Id (PK)\n- Code, Name, FullName\n- TaxId (ИНН), RegistrationNumber (КПП)\n- IsActive\n- BaseCurrency","x":450,"y":0,"width":350,"height":150},
+		{"id":"node_3","type":"text","text":"User (Пользователи)\n\nПоля:\n- Id (PK)\n- Login (Unique)\n- PasswordHash\n- Email, Role\n- IsActive","x":850,"y":0,"width":350,"height":150},
+		{"id":"node_5","type":"text","text":"Document / DynamicDocument\n\nДокументы:\n- Id (PK)\n- Number, Date, DocumentType\n- OperationCode, Status\n\nСтроки:\n- DocumentRow (связь Document)\n- DynamicDocumentRow (связь DynamicDocument)","x":400,"y":250,"width":350,"height":180},
+		{"id":"node_6","type":"text","text":"Metadata (Метаданные)\n\n- MetadataObject (объекты)\n  - Id, Name, ObjectType\n  - Связь: Fields (MetadataField)\n\n- MetadataField (поля)\n  - MetadataObjectId (FK)\n  - FieldName, DataType\n\n- MetadataConfiguration\n- MetadataModule, MetadataModuleItem","x":800,"y":250,"width":380,"height":200},
+		{"id":"node_7","type":"text","text":"AccountingPeriod (Учетные периоды)\n\nПоля:\n- Id (PK)\n- StartDate, EndDate\n- Status\n- IsLocked\n\nСвязи:\n- AccountingPeriodModuleState\n- AccountOpeningBalance\n- AccountTurnoverSnapshot","x":0,"y":480,"width":350,"height":150},
+		{"id":"node_8","type":"text","text":"Posting (Проводки)\n\nПоля:\n- Id (PK)\n- DocumentId (FK)\n- AccountCode\n- Debit, Credit\n- Amount, Date\n- OrganizationId (FK)\n\nСвязь с документами и организациями","x":400,"y":500,"width":350,"height":180},
+		{"id":"node_9","type":"text","text":"Report (Отчеты)\n\nПоля:\n- Id (PK)\n- Code, Name\n- SourceFormat (FRX/внутренний)\n- Order\n\nСвязи:\n- ReportField\n- ReportFilter\n- ReportGroup\n- ReportElementMapping","x":800,"y":500,"width":380,"height":150},
+		{"id":"node_10","type":"text","text":"FixedAsset (Основные средства)\n\nПоля:\n- Id (PK)\n- InventoryNumber (Unique)\n- Name\n- AcquisitionDate\n- InitialCost\n- Depreciation\n\nСвязь: FixedAssetPeriodBalance","x":0,"y":680,"width":350,"height":150},
+		{"id":"node_11","type":"text","text":"RegulatedReportTemplate\n(Шаблоны регламент. отчетов)\n\nПоля:\n- Id (PK)\n- Code (Unique с IsActive)\n- Version\n- IsActive\n- FileExtension\n- OriginalFileName","x":400,"y":740,"width":350,"height":150},
+		{"id":"node_12","type":"text","text":"Прочие сущности:\n\n- Material (Материалы)\n  - Code (Unique)\n\n- UserAccessPermission\n  - UserId, NavigationKey\n\n- SystemConfiguration\n- SystemPatchRecord\n- LocalizationEntry\n- DbfMetadata","x":800,"y":700,"width":380,"height":140},
+		{"id":"node_1","type":"text","text":"AppDbContext (Основной контекст базы данных)\n\nПодключение: PostgreSQL через Npgsql\n\nСодержит DbSet для всех сущностей системы.","x":120,"y":-360,"width":400,"height":200},
+		{"id":"node_4","type":"text","text":"InfoBase (Информационные базы)\n\nПоля:\n- Id (PK)\n- Name (Unique)\n- ConnectionString\n- Description\n- CreatedAt","x":0,"y":75,"width":350,"height":150}
+	],
+	"edges":[
+		{"id":"edge_1","fromNode":"node_1","fromSide":"left","toNode":"node_2","toSide":"right","color":"rgba(255, 255, 255, 0.8)"},
+		{"id":"edge_2","fromNode":"node_1","fromSide":"left","toNode":"node_3","toSide":"right","color":"rgba(255, 255, 255, 0.8)"},
+		{"id":"edge_3","fromNode":"node_1","fromSide":"left","toNode":"node_4","toSide":"right","color":"rgba(255, 255, 255, 0.8)"},
+		{"id":"edge_4","fromNode":"node_5","fromSide":"bottom","toNode":"node_8","toSide":"top","color":"rgba(255, 255, 255, 0.8)","label":"DocumentId"},
+		{"id":"edge_5","fromNode":"node_5","fromSide":"right","toNode":"node_2","toSide":"left","color":"rgba(255, 255, 255, 0.8)","label":"OrganizationId"},
+		{"id":"edge_6","fromNode":"node_8","fromSide":"right","toNode":"node_2","toSide":"left","color":"rgba(255, 255, 255, 0.8)","label":"OrganizationId"},
+		{"id":"edge_7","fromNode":"node_6","fromSide":"right","toNode":"node_2","toSide":"left","color":"rgba(255, 255, 255, 0.6)"},
+		{"id":"edge_8","fromNode":"node_7","fromSide":"top","toNode":"node_8","toSide":"bottom","color":"rgba(255, 255, 255, 0.6)"},
+		{"id":"edge_9","fromNode":"node_10","fromSide":"left","toNode":"node_7","toSide":"right","color":"rgba(255, 255, 255, 0.6)"},
+		{"id":"edge_10","fromNode":"node_9","fromSide":"right","toNode":"node_3","toSide":"left","color":"rgba(255, 255, 255, 0.6)"},
+		{"id":"edge_11","fromNode":"node_9","fromSide":"right","toNode":"node_6","toSide":"left","color":"rgba(255, 255, 255, 0.6)"}
+	]
+}
