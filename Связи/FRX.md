@@ -33,7 +33,7 @@
 
 ### Процесс импорта FRX
 
-1. **Загрузка файла** (`ReportDesignerWindow.OnLoadFrxClick` или `FrxParser.ParseFrxFile`)
+1. **Загрузка файла** (`ReportDesignerWindow.OnLoadFrxClick` или [[FrxParser.ParseFrxFile]])
    - Читается `.FRX` файл как массив байт
    - Если есть `.FRT` — тоже читается
 
