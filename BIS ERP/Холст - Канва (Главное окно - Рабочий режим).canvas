@@ -8,7 +8,7 @@
 		{"id":"v_employee","type":"text","text":"EmployeesCatalogView\n(Сотрудники)","x":-600,"y":-1520,"width":200,"height":60},
 		{"id":"views_group","type":"text","text":"📋 Рабочие View\nзагружаемые в ContentArea","x":-560,"y":-1655,"width":240,"height":95},
 		{"id":"v_dynamic","type":"text","text":"DynamicDocumentWorkView\n(Динамические док-ты)","x":-380,"y":-1520,"width":200,"height":60},
-		{"id":"v_payment","type":"text","text":"PaymentOrderWorkView\n(Платежные поручения)","x":-600,"y":-1410,"width":200,"height":60},
+		{"id":"v_payment","type":"text","text":"PaymentOrderWorkView ([[Платежное поручение]])\n(Платежные поручения)","x":-600,"y":-1410,"width":200,"height":60},
 		{"id":"v_invoice","type":"text","text":"InvoiceWorkView\n(Счет-фактуры)","x":-380,"y":-1410,"width":200,"height":60},
 		{"id":"v_accounting","type":"text","text":"[[AccountingReportsView]]","x":-600,"y":-1300,"width":200,"height":60},
 		{"id":"v_users","type":"text","text":"UserAccessManagementView\n(Пользователи/права)","x":-600,"y":-1190,"width":200,"height":130},
