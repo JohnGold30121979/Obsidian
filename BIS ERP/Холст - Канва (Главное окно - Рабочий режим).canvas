@@ -11,8 +11,7 @@
 		{"id":"v_payment","type":"text","text":"PaymentOrderWorkView\n(Платежные поручения)","x":-600,"y":-1410,"width":200,"height":60},
 		{"id":"v_invoice","type":"text","text":"InvoiceWorkView\n(Счет-фактуры)","x":-380,"y":-1410,"width":200,"height":60},
 		{"id":"v_accounting","type":"text","text":"[[AccountingReportsView]]","x":-600,"y":-1300,"width":200,"height":60},
-		{"id":"v_accounting_setup","type":"text","text":"AccountingSetupView\n(Настройка учёта)","x":-380,"y":-1300,"width":200,"height":60},
-		{"id":"v_users","type":"text","text":"UserAccessManagementView\n(Пользователи/права)","x":-600,"y":-1190,"width":200,"height":60},
+		{"id":"v_users","type":"text","text":"UserAccessManagementView\n(Пользователи/права)","x":-600,"y":-1190,"width":200,"height":130},
 		{"id":"dialogs_group","type":"text","text":"🗂️ Диалоги окон","x":0,"y":-1860,"width":220,"height":60},
 		{"id":"d_cash","type":"text","text":"[[CashOrderDialog]]","x":-120,"y":-1760,"width":180,"height":50},
 		{"id":"d_payment","type":"text","text":"PaymentOrderDialog","x":80,"y":-1760,"width":180,"height":50},
@@ -32,7 +31,8 @@
 		{"id":"s_module","type":"text","text":"ModuleMetadataService","x":-1120,"y":-970,"width":200,"height":60},
 		{"id":"s_user","type":"text","text":"UserAccessService","x":-900,"y":-970,"width":200,"height":60},
 		{"id":"s_theme","type":"text","text":"ThemeService","x":-1120,"y":-880,"width":200,"height":60},
-		{"id":"mw_content","type":"text","text":"🖥️ ContentArea\nContentControl\n(правая панель)\n\nСюда загружаются\nUserControl-ы","x":-440,"y":-2055,"width":240,"height":160}
+		{"id":"mw_content","type":"text","text":"🖥️ ContentArea\nContentControl\n(правая панель)\n\nСюда загружаются\nUserControl-ы","x":-440,"y":-2055,"width":240,"height":160},
+		{"id":"v_accounting_setup","type":"text","text":"AccountingSetupView\n(Настройка учёта)","x":-380,"y":-1300,"width":200,"height":60}
 	],
 	"edges":[
 		{"id":"e1","fromNode":"mw_header","fromSide":"bottom","toNode":"mw_main","toSide":"top"},
