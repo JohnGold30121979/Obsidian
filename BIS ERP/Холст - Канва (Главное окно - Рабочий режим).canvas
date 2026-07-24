@@ -18,7 +18,7 @@
 		{"id":"d_invoice","type":"text","text":"InvoiceEditDialog","x":-120,"y":-1680,"width":180,"height":50},
 		{"id":"d_reference","type":"text","text":"ReferenceSelectionDialog","x":80,"y":-1680,"width":180,"height":50},
 		{"id":"d_account","type":"text","text":"[[AccountSelectionDialog]]","x":-120,"y":-1600,"width":180,"height":50},
-		{"id":"d_posting","type":"text","text":"PostingDetailsDialog","x":80,"y":-1600,"width":180,"height":50},
+		{"id":"d_posting","type":"text","text":"[[PostingDetailsDialog]]","x":80,"y":-1600,"width":180,"height":50},
 		{"id":"d_search","type":"text","text":"PostingSearchDialog","x":-120,"y":-1520,"width":180,"height":50},
 		{"id":"d_turnovers","type":"text","text":"TurnoversDialog","x":80,"y":-1520,"width":180,"height":50},
 		{"id":"d_print","type":"text","text":"PrintFormSelectionDialog","x":-120,"y":-1440,"width":180,"height":50},
