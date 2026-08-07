@@ -26,7 +26,7 @@
 		{"id":"v_postings","type":"text","text":"PostingsJournalView\n(Журнал проводок)","x":-820,"y":-1300,"width":200,"height":60},
 		{"id":"services_group","type":"text","text":"⚙️ Сервисы","x":-960,"y":-1160,"width":220,"height":60},
 		{"id":"s_nav","type":"text","text":"NavigationService\nAppNavigationService","x":-1120,"y":-1060,"width":200,"height":60},
-		{"id":"s_meta","type":"text","text":"MetadataService","x":-900,"y":-1060,"width":200,"height":60},
+		{"id":"s_meta","type":"text","text":"MetadataService[[Метадата Сервис]]","x":-900,"y":-1060,"width":200,"height":60},
 		{"id":"s_module","type":"text","text":"ModuleMetadataService","x":-1120,"y":-970,"width":200,"height":60},
 		{"id":"s_user","type":"text","text":"UserAccessService","x":-900,"y":-970,"width":200,"height":60},
 		{"id":"s_theme","type":"text","text":"ThemeService","x":-1120,"y":-880,"width":200,"height":60},
