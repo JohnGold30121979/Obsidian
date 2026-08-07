@@ -274,7 +274,7 @@ return await _metadataService.GetNextDocumentNumberAsync(metadata);
 
 1. Вызывается `GetNextDocumentNumberAsync(metadata)`
 
-2. Внутри вызывается `GetNextDocumentNumberByKeyAsync("Выписка счет-фактур", "Выписка счет-фактур", metadata)`
+2. Внутри вызывается [[GetNextDocumentNumberByKeyAsync]] ("Выписка счет-фактур", "Выписка счет-фактур", metadata)`
 
 3. `numberingKey` = `GetDocumentNumberingKey(metadata)` = `metadata.Name` = "Выписка счет-фактур"
 
@@ -652,7 +652,7 @@ System.Diagnostics.Debug.WriteLine($"✅ Проводка создана: {docum
 
 **Причина**: Запись в `doc_numbering` не инкрементируется
 
-**Решение**: Проверить, что метод `GetNextDocumentNumberByKeyAsync` обновляет БД
+**Решение**: Проверить, что метод [[GetNextDocumentNumberByKeyAsync]] обновляет БД
 
   
 

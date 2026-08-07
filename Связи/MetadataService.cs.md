@@ -1,4 +1,4 @@
-[[GetNextDocumentNumberAsync]]  - Увеличение счетчика номера документа
+[[Связи/GetNextDocumentNumberAsync]]  - Увеличение счетчика номера документа
 
 # MetadataService — полный обзор
 
